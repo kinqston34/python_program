@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn
 seaborn.reset_orig()
-def plot_a_vector(x,y,tick=3):
+def plot_a_vector(x,y):
     x0,y0 = 0,0     #定義向量起始點
     dx,dy = x,y     #定義向量終點
     max_val = max(abs(dx),abs(dy))+2
@@ -20,6 +20,7 @@ def plot_a_vector(x,y,tick=3):
     ax.annotate('({}, {})'.format(dx,dy),xy=(dx,dy),xytext = (dx+adjust,dy)) #annotat(註解樣式,註解點,註解顯示調整)
     #劃出向量
     plt.arrow(x0,y0,dx,dy,length_includes_head = True,head_width=0.3)
+    tick = 3 #設定刻度
     plt.xticks(range(-max_val + 1,max_val - 1, tick)) #tick: 刻度
     plt.yticks(range(-max_val + 1,max_val - 1, tick))
     return ax
