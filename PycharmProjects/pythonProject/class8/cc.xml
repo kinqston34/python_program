@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Employees>
+    <Employee type="Programmer">
+		<id>1</id>
+		<name>Mary</name>
+	</Employee>
+    <Employee type="IC Design">
+		<id>2</id>
+		<name>John</name>
+	</Employee>
+</Employees>
