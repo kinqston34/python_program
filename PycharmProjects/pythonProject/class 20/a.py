@@ -10,7 +10,7 @@ for tr in rs_tr:
     rs_td = tr.select('td')
     #print(rs_td[0])
     for td in rs_td:
-        l.append(td.text)
+        #l.append(td.text)
         l.append(f'"{td.text}"')
     with open(r'C:\Users\User\Desktop\2021.07.txt',mode='a') as f:
         #f.writelines(l)
