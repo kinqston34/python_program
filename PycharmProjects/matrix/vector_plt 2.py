@@ -2,12 +2,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import vector_plt
-from vector_plt import plot_a_vector
+from coordinate_set import plot_a_vector
 import seaborn
 seaborn.reset_orig()
+
 def vector_scalar_multiple(v,scalar):
     new_v = v*scalar
     return new_v
+
 v = np.array([2,4])
 v1 = vector_scalar_multiple(v,5)
 v2 = vector_scalar_multiple(v,-2)
