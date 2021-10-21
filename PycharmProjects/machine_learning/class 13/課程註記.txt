@@ -1,0 +1,4 @@
+1. knn (k nearest neighbor)
+2. Supervised (監督式的): knn
+3. Unsupervised (非監督式的) : k-means
+4. mnist(測試資料集)

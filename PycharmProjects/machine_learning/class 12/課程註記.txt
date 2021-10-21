@@ -1,0 +1,6 @@
+1. LSTM(神經網路演算法)
+2. 參數oem (4種神經網路演算法)
+3. convolution neural network
+4. Sobel Filter
+5. haar-cascades
+

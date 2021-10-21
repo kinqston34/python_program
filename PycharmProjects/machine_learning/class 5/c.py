@@ -1,0 +1,11 @@
+import numpy as np
+A = np.array([[2,-1],[-2,3]])
+B = np.array([[3,0],[1,-2]])
+#print(np.transpose(A))
+#print(A.T)
+print(A)
+print(B)
+print(A+B)
+print(A-B)
+print(A*B)
+print(np.dot(A,B))
